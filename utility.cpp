@@ -31,7 +31,7 @@ bool isPrime(int x) {
       return false;
     }
   }
-  if (x == 0 || x == 1){
+  if (x == 0 || abs(x) == 1){
     return false;
   }
   return true;
